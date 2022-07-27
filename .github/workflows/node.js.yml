@@ -11,8 +11,8 @@ on:
 
 jobs:
   build:
-
-    runs-on: [ubuntu-latest, windows-latgest, macos-latest]
+  
+    runs-on: ubuntu-latest
 
     strategy:
       matrix:
